@@ -14,8 +14,8 @@
         "illuminate/support": "^5.2"
     },
     "autoload": {
-      "psr-0": {
-        "Markantonay\\XeroLaravel": "src/"
-      }
+        "psr-4": {
+          "Markantonay\\XeroLaravel\\": "src/"
+        }
     }
 }
