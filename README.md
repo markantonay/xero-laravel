@@ -11,12 +11,12 @@ We will review this after Laravel 5 has been released and likely leave this acti
 
 ## Installation
 
-The Xero Service Provider can be installed via [Composer](http://getcomposer.org) by requiring the `Softlabs/xero-laravel` package in your project's `composer.json`.
+The Xero Service Provider can be installed via [Composer](http://getcomposer.org) by requiring the `Markantonay/xero-laravel` package in your project's `composer.json`.
 
 ```json
 {
     "require": {
-        "Softlabs/xero-laravel": "3.*"
+        "Markantonay/xero-laravel": "3.*"
     },
 }
 ```
@@ -27,7 +27,7 @@ Also you need to add the repository to composer.json:
 "repositories": [
     {
         "type": "vcs",
-        "url": "https://github.com/Softlabs/xero-laravel"
+        "url": "https://github.com/Markantonay/xero-laravel"
     }
 ]
 ```
@@ -55,7 +55,7 @@ Find the `providers` key in `config/app.php` and register the Xero Service Provi
 ```php
     'providers' => [
         // ...
-        'Softlabs\XeroLaravel\XeroLaravelServiceProvider',
+        'Markantonay\XeroLaravel\XeroLaravelServiceProvider',
     ]
 ```
 
@@ -64,7 +64,7 @@ Find the `aliases` key in `config/app.php` and add in our `Xero` alias.
 ```php
     'aliases' => [
         // ...
-        'XeroLaravel'     => 'Softlabs\XeroLaravel\Facades\XeroLaravel',
+        'XeroLaravel'     => 'Markantonay\XeroLaravel\Facades\XeroLaravel',
     ]
 ```
 
