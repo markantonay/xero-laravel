@@ -1,5 +1,5 @@
 <?php
-namespace Softlabs\XeroLaravel;
+namespace Markantonay\XeroLaravel;
 
 use Illuminate\Support\ServiceProvider;
 use Markantonay\XeroLaravel\PHPXero\PHPXero;
