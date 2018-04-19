@@ -1,6 +1,6 @@
 <?php
 
-namespace Softlabs\XeroLaravel\PHPXero;
+namespace Markantonay\XeroLaravel\PHPXero;
 use Exception;
 
 /**
@@ -995,7 +995,7 @@ class OAuthDataStore {
 class OAuthUtil {
   public static function urlencode_rfc3986($input) {
   if (is_array($input)) {
-    return array_map(array('Softlabs\XeroLaravel\PHPXero\OAuthUtil', 'urlencode_rfc3986'), $input);
+    return array_map(array('Markantonay\XeroLaravel\PHPXero\OAuthUtil', 'urlencode_rfc3986'), $input);
   } else if (is_scalar($input)) {
     return str_replace(
       '+',

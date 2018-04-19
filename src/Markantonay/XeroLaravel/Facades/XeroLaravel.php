@@ -1,4 +1,5 @@
-<?php namespace Softlabs\XeroLaravel\Facades;
+<?php 
+namespace Markantonay\XeroLaravel\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
