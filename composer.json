@@ -1,6 +1,6 @@
 {
     "name": "markantonay/xero-laravel",
-    "description": "Xero Service Provider for Laravel 5",
+    "description": "Xero Service Provider for Laravel 5 Porked",
     "keywords": ["laravel","laravel 5","xero"],
     "license": "MIT",
     "authors": [
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-          "Markantonay\\XeroLaravel": "src/"
+          "Markantonay\\XeroLaravel\\": "src/"
         }
     }
 }
