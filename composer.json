@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-          "Markantonay\\XeroLaravel\\": "src/"
+          "Markantonay\\XeroLaravel": "src/"
         }
     }
 }
