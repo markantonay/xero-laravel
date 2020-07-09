@@ -1,7 +1,7 @@
 {
     "name": "markantonay/xero-laravel",
-    "description": "Xero Service Provider for Laravel 5 Porked",
-    "keywords": ["laravel","laravel 5","xero"],
+    "description": "Xero Service Provider for Laravel 7 Porked",
+    "keywords": ["laravel","laravel 7","xero"],
     "license": "MIT",
     "authors": [
         {
@@ -9,8 +9,8 @@
             "email": "markhaitus@gmail.com"
         }
     ],
-    "require": {
-        "php": ">7"      
+    "require": {        
+        "calcinai/xero-php": "^1.6"   
     },
     "autoload": {
         "psr-4": {
