@@ -1,1 +1,1 @@
-# Xero Service Provider for Laravel 5
+# Xero Service Provider for Laravel 7
